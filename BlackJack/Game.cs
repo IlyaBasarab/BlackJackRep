@@ -30,7 +30,7 @@ namespace BlackJack
                     "2. Stop");
 
                 int value = Convert.ToInt32(Console.ReadLine());
-                
+                Console.WriteLine("");
                 if (value == 1)
                 {
                     human.GetCard(deck.GetNextCard());
